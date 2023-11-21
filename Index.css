@@ -1,0 +1,52 @@
+body {
+    background: #2b134b;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #201b2c;
+    color: #f0ffffde;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.separator {
+    height: 1px;
+    background-color: #514869;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.custom-navbar-color {
+    background-color: #00ff88;
+}
+
+.custom-navbar-text-color {
+    color: black;
+    /* Substitua 'white' pela cor desejada */
+}
+
+.custom-navbar-font {
+    font-family: 'Arial', sans-serif;
+}
+
+.primeiro{
+    border: 3px solid red;
+    margin-top: 60px
+}
+
+.segundo{
+    border: 3px solid yellow;
+}
+
+.terceiro{
+    border: 3px solid blue;
+}
