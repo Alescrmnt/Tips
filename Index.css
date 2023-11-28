@@ -9,6 +9,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     background-color: #201b2c;
     color: #f0ffffde;
+    padding-top: 70px
 }
 
 .header {
@@ -31,33 +32,97 @@ body {
 
 .custom-navbar-text-color {
     color: black;
-    /* Substitua 'white' pela cor desejada */
 }
 
 .custom-navbar-font {
     font-family: 'Arial', sans-serif;
 }
 
+/* primeiro  1*/
 .primeiro{
     border: 3px solid red;
-    margin-top: 5vh
+    margin-top: 5vh;
+    width:50%;
+    margin-left: 25%;
+    font-size: 120%;
+   /**/ display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
+.primeiro select{
+  width: 15%;
+  text-align: center;
+}
+
+.primeiro-block{
+  display: flex
+}
+
+/* Segundo  2*/
 .segundo{
     border: 3px solid yellow;
+    width:50%;
+    margin-top: 5vh;
+    /**/display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
+.segundo select{
+  width: 15%;
+  text-align: center;
+}
+
+label{
+  font-size: 90%
+}
+
+.font{
+  font-size: 130%
+}
+
+/* Terceiro  3*/
 
 .terceiro{
     border: 3px solid blue;
+    width:50%;
+    margin-top: 5vh;
 }
 
+.terceiro select{
+  width: 15%;
+  text-align: center;
+}
+
+/* Quarto  4*/
 .quarto{
     border: 3px solid pink;
+    width:50%;
+    margin-top: 5vh;
 }
 
+/* Quinto  5*/
+.quinto{
+  border: 3px solid black;
+  width:50%;
+  margin-top: 5vh;
+}
+
+/* Sexto  6*/
+.sexto{
+  border: 3px solid orange;
+  width:50%;
+  margin-top: 5vh;
+}
+
+/* Geral --*/
 .geral{
     border: 8px solid gray;
     margin-left: 5vh;
     margin-right: 9vh;
-    margin-top: 9vh;
 }
