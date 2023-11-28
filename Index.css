@@ -40,7 +40,7 @@ body {
 
 .primeiro{
     border: 3px solid red;
-    margin-top: 60px
+    margin-top: 5vh
 }
 
 .segundo{
@@ -49,4 +49,15 @@ body {
 
 .terceiro{
     border: 3px solid blue;
+}
+
+.quarto{
+    border: 3px solid pink;
+}
+
+.geral{
+    border: 8px solid gray;
+    margin-left: 5vh;
+    margin-right: 9vh;
+    margin-top: 9vh;
 }
